@@ -21,7 +21,7 @@ makeCacheMatrix <-function(x=matrix()){
       getInverse=getInverse)
  }     
 
-##this should mke the inverse on the unique matrix made above.
+##this should mke the inverse on the unique matrix created above.
 
 cacheSolve <- function(x, ...) {
    inv <-x$getInverse()
